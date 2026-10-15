@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Noto+Sans+TC:wght@400;600&family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>Kadampa Monasteries</title>
+</head>
+<body>
+<header class="site" id="hdr"></header>
+<main>
+  <div class="hero"><div class="wrap">
+    <h1 data-i18n="hero_h1"></h1>
+    <p data-i18n="hero_p"></p>
+    <a class="btn" href="#events" data-i18n="hero_btn"></a>
+  </div></div>
+
+  <section id="events"><div class="wrap">
+    <h2 data-i18n="ev_h2"></h2>
+    <div class="note" data-i18n="ev_note"></div>
+    <div class="filters" id="filters" role="group"></div>
+    <div id="eventList"></div>
+  </div></section>
+
+  <section id="monasteries" style="background:var(--white)"><div class="wrap">
+    <h2 data-i18n="mon_h2"></h2>
+    <div class="grid">
+      <article class="place">
+        <h3><a href="nepal.html" data-i18n="nepal"></a></h3>
+        <p class="where" data-i18n="nepal_where"></p>
+        <p data-i18n="nepal_blurb"></p>
+        <a href="nepal.html" data-i18n="visit_page"></a>
+      </article>
+      <article class="place">
+        <h3><a href="taiwan.html" data-i18n="taiwan"></a></h3>
+        <p class="where" data-i18n="taiwan_where"></p>
+        <p data-i18n="taiwan_blurb"></p>
+        <a href="taiwan.html" data-i18n="visit_page"></a>
+      </article>
+    </div>
+  </div></section>
+
+  <section id="news"><div class="wrap">
+    <h2 data-i18n="news_h2"></h2>
+    <article class="post"><time data-date="2026-10-10"></time><h3 data-i18n="post1_t"></h3><p data-i18n="post1_p"></p></article>
+    <article class="post"><time data-date="2026-10-05"></time><h3 data-i18n="post2_t"></h3><p data-i18n="post2_p"></p></article>
+  </div></section>
+
+  <section id="visit" style="background:var(--white)"><div class="wrap">
+    <h2 data-i18n="visit_h2"></h2>
+    <p data-i18n="visit_p"></p>
+  </div></section>
+</main>
+<footer id="ftr"></footer>
+<script src="site.js"></script>
+</body>
+</html>
